@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
 
+    <style>::-webkit-scrollbar{width:3px;height:3px} :-webkit-scrollbar-track{background:#b32222;border-radius:10px}::-webkit-scrollbar-thumb{background:#b32222;border-radius:10px}</style>
+
     <script src="https://kit.fontawesome.com/5bf0ae1d86.js" crossorigin="anonymous"></script>
 
     <title>Formula1 | Circuitos Históricos</title>
@@ -17,10 +19,10 @@
 </head>
 <body>
     <header class="barra">
-        <a href="../index.html">
+        <a href="../index.html" class="logoBarra">
         <img src="../imagenes/logo-F1.png"alt="Logo de Formula1" class="logoNav">
         </a>
-        <nav>
+        <nav class="barraInfo">
             <ul class="barraNav">
                 <li class="barraNavLista">
                     <a href="../index.html" class="barraLink"> HOME </a>
@@ -46,73 +48,61 @@
     <!-- MAAAAINNNNN -->
     <main class="mainCircuitos">
         <h1 class="h1Circuitos">CIRCUITOS HISTORICOS DE LA FORMULA 1</h1>
-        <section class="circuitos">
-            <div>
+        <section class="gridCircuito">
+            <div class="cirMonaco">
+                <div class="circuitos">
+                    <img src="../imagenes/monaco2.jpg" alt="Circuito de Mónaco - 'Curva Loews'" class="fotoCircuitos">
+                </div>
                 <h2 class="h2Circuitos">Circuito de Mónaco</h2>
                 <h3 class="h3Circuitos">El Circuito de Mónaco (en francés: Circuit de Monaco), conocido también como Circuito de Monte Carlo, es un circuito urbano de carreras ubicado en el Principado de Mónaco que alberga el Gran Premio de Mónaco de Fórmula 1 y de Fórmula E. Fue fundado en 1920 por Antony Noghès.
-                Debido a su especial configuración con curvas cerradas y rectas cortas, lo que prima en él es la habilidad de los pilotos frente a la potencia de los motores.
+                Es un trazado atípico, con pocas curvas rápidas y en el que las barreras están pegadas a la pista, algo que hace que sea complicado adelantar a otros pilotos e incluso terminar la carrera sin irse directamente contra los muros. Una carrera en la que lo que prima es la tracción del coche y su estabilidad más que la potencia y la velocidad; un factor clave es la búsqueda de la adherencia mecánica.
                 </h3>
             </div>
-            <div class="divImgCirc">
-                <img src="../imagenes/monaco2.jpg" alt="Circuito de Mónaco - 'Curva Loews'" class="fotoCircuitos">
-            </div>
-        </section>
-        <section class="circuitos">
-            <div>
+            <div class="cirInterlagos">
+                <div class="circuitos">
+                    <img src="../imagenes/interlagos.jpg" alt="Autódromo José Carlos Pace - Curva 'S de Senna'" class="fotoCircuitos">
+                </div>
                 <h2 class="h2Circuitos">Autódromo José Carlos Pace</h2>
                 <h3 class="h3Circuitos">El Autódromo José Carlos Pace, también conocido como Interlagos, es un autódromo localizado en el barrio de Interlagos en los suburbios de São Paulo, Brasil. Ha sido sede de la mayoría de las ediciones del Gran Premio de Brasil de Fórmula 1, incluyendo todas desde 1990 hasta 2019.
-                El nombre tradicional del circuito, Interlagos, proviene del hecho de que la pista fue construida en una región entre dos grandes lagos artificiales, el Guarapiranga y el Billings.
-                A diferencia de la mayoría de los circuitos sudamericanos y europeos, Interlagos tiene sentido de giro antihorario. El trazado combina dos sectores con rectas largas y curvas cerradas, con un mixto que tiene constantes curvas y contracurvas. Esto requiere una puesta a punto que funcione adecuadamente en ambas partes de la pista. La recta principal en subida desemboca en la S de Senna (propuesta por él mismo en la remodelación), la frenada más fuerte de la pista que suele utilizarse para intentar adelantamientos.
+                A diferencia de la mayoría de los circuitos sudamericanos y europeos, Interlagos tiene sentido de giro antihorario. El trazado combina dos sectores con rectas largas y curvas cerradas, con un mixto que tiene constantes curvas y contracurvas. La recta principal en subida desemboca en la S de Senna, la frenada más fuerte de la pista que suele utilizarse para intentar adelantamientos.
                 </h3>
             </div>
-            <div class="divImgCirc">
-                <img src="../imagenes/interlagos.jpg" alt="Autódromo José Carlos Pace - Curva 'S de Senna'" class="fotoCircuitos">
-            </div>
-        </section>
-        <section class="circuitos">
-            <div>
+            <div class="cirMonza">
+                <div class="circuitos">
+                    <img src="../imagenes/monza.png" alt="Autodromo Nacional de Monza - 'Curva Parabólica'" class="fotoCircuitos">
+                </div>
                 <h2 class="h2Circuitos">Autódromo Nacional de Monza</h2>
                 <h3 class="h3Circuitos">El Autódromo Nazionale di Monza es un autódromo ubicado en el parque de la villa real de Monza en las cercanías de Monza, región de Lombardía, Italia, a unos 20 km al norte de la ciudad de Milán.
                 El circuito es reconocido por albergar el Gran Premio de Italia de Fórmula 1 (solamente una edición se hizo en otra pista), y se caracteriza por el alto porcentaje del trazado que los pilotos recorren con el acelerador a fondo, debido a las largas rectas.
                 El circuito, en sus diferentes versiones, ha albergado todas las temporadas de Fórmula 1 de la historia un Gran Premio, excepto en 1980.
                 </h3>
             </div>
-            <div class="divImgCirc">
-                <img src="../imagenes/monza.png" alt="Autodromo Nacional de Monza - 'Curva Parabólica'" class="fotoCircuitos">
-            </div>
-        </section>    
-        <section class="circuitos">
-            <div>
+            <div class="cirSilver">
+                <div class="circuitos">
+                    <img src="../imagenes/silverstone.jpg" alt="Circuito de Silverstone - 'Curvas Maggotts y Becketts'" class="fotoCircuitos">
+                </div>
                 <h2 class="h2Circuitos">Circuito de Silverstone</h2>
                 <h3 class="h3Circuitos">El Circuito de Silverstone es un autódromo localizado en Silverstone, condado de Northamptonshire, en Inglaterra, Reino Unido, a unos 20 km al sur de Northampton y 25 km al oeste de Milton Keynes. Parte del autódromo se halla en Northamptonshire y la restante en Buckinghamshire.
                 Es uno de los circuitos más prestigiosos de Europa, al haber albergado el Gran Premio de Gran Bretaña de Fórmula 1, los 1000 km de Silverstone del Campeonato Mundial de Resistencia, y el Gran Premio de Gran Bretaña de Motociclismo del Campeonato Mundial de Motociclismo, entre otras pruebas internacionales.
                 </h3>
             </div>
-            <div class="divImgCirc">
-                <img src="../imagenes/silverstone.jpg" alt="Circuito de Silverstone - 'Curvas Maggotts y Becketts'" class="fotoCircuitos">
-            </div>
-        </section>
-        <section class="circuitos">
-            <div>
+            <div class="cirSpa">
+                <div class="circuitos">
+                    <img src="../imagenes/Spa.jpg" alt="Circuito de Spa-Francorchamps - Curva 'Eau Rouge'" class="fotoCircuitos">
+                </div>
                 <h2 class="h2Circuitos">Circuito de Spa-Francorchamps</h2>
-                <h3 class="h3Circuitos">El Circuito de Spa-Francorchamps (en francés Circuit de Spa-Francorchamps) es un circuito de carreras situado cerca de las localidades de Spa, Francorchamps, Malmedy y Stavelot en la provincia de Lieja, Bélgica. Es el circuito más importante del país, y tanto pilotos como seguidores de las diversas disciplinas de automovilismo de velocidad suelen mostrar su preferencia por él.
-                Spa-Francorchamps se ha caracterizado desde sus orígenes por lo impredecible de las condiciones meteorológicas, que muchas veces hacen que una parte de la pista esté seca mientras en el otro extremo llueve en forma torrencial.
-                La sección más característica del circuito es la combinación de Eau Rouge y Raidillon. Tras atravesar la lenta horquilla de La Source, los pilotos aceleran por una recta en bajada tras lo cual deben encarar una subida con una serie de curvas zigzagueantes (la primera de las cuales es Eau Rouge, y el resto de la combinación Raidillon) que finalizan en contracurva ciega. El gran desafío para todo piloto es tomar Eau Rouge con el acelerador a fondo, lo cual se dice que se ha simplificado en los últimos años debido al uso de tecnología moderna en los monoplazas. Aun así, siguen siendo muy pocos los pilotos que la toman pisando a tope su acelerador.
+                <h3 class="h3Circuitos">El Circuito de Spa-Francorchamps (en francés Circuit de Spa-Francorchamps) es un circuito de carreras situado cerca de las localidades de Spa, Francorchamps, Bélgica. Spa-Francorchamps se ha caracterizado desde sus orígenes por lo impredecible de las condiciones meteorológicas, que muchas veces hacen que una parte de la pista esté seca mientras en el otro extremo llueve en forma torrencial.
+                La sección más característica del circuito es la combinación de Eau Rouge y Raidillon. Tras atravesar la lenta horquilla de La Source, los pilotos aceleran por una recta en bajada tras lo cual deben encarar una subida con una serie de curvas zigzagueantes, que finalizan en contracurva ciega.
                 </h3>
             </div>
-            <div class="divImgCirc">
-                <img src="../imagenes/Spa.jpg" alt="Circuito de Spa-Francorchamps - Curva 'Eau Rouge'" class="fotoCircuitos">
-            </div>
-        </section>
-        <section class="circuitos">
-            <div>
+           <div class="cirImola">
+                <div class="circuitos">
+                    <img src="../imagenes/imola.jpg" alt="Autodromo Enzo e Dino Ferrari - Curva 'Variante Bassa'" class="fotoCircuitos">
+                </div>
                 <h2 class="h2Circuitos">Autódromo Enzo e Dino Ferrari</h2>
                 <h3 class="h3Circuitos">El Autódromo Enzo e Dino Ferrari es un autódromo de 4,9 km situado en Imola, región de Emilia-Romaña, Italia, unos 30 km al sureste de la ciudad de Bolonia. Es uno de los principales de su país, habiendo albergado carreras de numerosos campeonatos mundiales y europeos de automovilismo de velocidad y motociclismo de velocidad además de italianos.
                 El circuito llevaba originalmente el nombre de Autodromo di Castellaccio. Luego se llamó Autodromo Dino Ferrari en honor a Dino Ferrari, hijo de Enzo Ferrari que falleció en 1956 a los 24 años. Cuando Enzo murió en 1988, el nombre pasó a ser el actual
                 </h3>
-            </div>
-            <div class="divImgCirc">
-                <img src="../imagenes/imola.jpg" alt="Autodromo Enzo e Dino Ferrari - Curva 'Variante Bassa'" class="fotoCircuitos">
             </div>
         </section>
     </main>

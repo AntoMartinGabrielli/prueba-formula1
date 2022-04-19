@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
 
+    <style>::-webkit-scrollbar{width:3px;height:3px} :-webkit-scrollbar-track{background:#b32222;border-radius:10px}::-webkit-scrollbar-thumb{background:#b32222;border-radius:10px}</style>
+
     <script src="https://kit.fontawesome.com/5bf0ae1d86.js" crossorigin="anonymous"></script>
 
     <title>Formula1 | Contacto</title>
@@ -17,10 +19,10 @@
 </head>
 <body>
     <header class="barra">
-        <a href="../index.html">
+        <a href="../index.html" class="logoBarra">
         <img src="../imagenes/logo-F1.png"alt="Logo de Formula1" class="logoNav">
         </a>
-        <nav>
+        <nav class="barraInfo">
             <ul class="barraNav">
                 <li class="barraNavLista">
                     <a href="../index.html" class="barraLink"> HOME </a>
@@ -29,7 +31,7 @@
                     <a href="../paginas/pilotosyequipos.html" class="barraLink"> PILOTOS Y EQUIPOS </a>
                 </li>
                 <li class="barraNavLista">
-                    <a href="../paginas/races.html" class="barraLink"> CCARRERAS </a>
+                    <a href="../paginas/races.html" class="barraLink"> CARRERAS </a>
                 </li>    
                 <li class="barraNavLista">
                     <a href="../paginas/leyendas.html" class="barraLink"> LEYENDAS </a>
@@ -45,15 +47,19 @@
     </header>
     <!-- MAAAAINNNNN -->
     <main class="mainContacto">
-        <h2 class="h2Contacto">¡Contactanos!</h2>
-        <p class="pContacto">Si tenes algo que comentarnos o quisieras que agregaramos un contenido al sitio web, no dudes en dejarnos un mensaje.</p>
-        <form class="formulario">
+        <section>
+            <h2 class="h2Contacto">¡Contactanos!</h2>
+            <p class="pContacto">Si tenes algo que comentarnos o quisieras que agregaramos un contenido al sitio web, no dudes en dejarnos un mensaje.</p>
+            <form class="formulario">
             <input type="text" placeholder="Nombre y Apellido" class="formParte1"><br>
             <input type="email" placeholder="Email" class="formParte2"><br>
             <input type="text" placeholder="Mensaje" class="formParte3"><br>
             <input type="button" value="Enviar" class="formParte4"><br>
-        </form>
-        <img src="../imagenes/fotocontacto.jpg" alt="foto descriptiva Formula1" class="fotoContacto">
+            </form>
+        </section>
+        <section class="sectionContacto">
+            <img src="../imagenes/fotocontacto.jpg" alt="foto descriptiva Formula1" class="fotoContacto">
+        </section>
     </main>
     <!-- FOOTER -->
     <footer class="footer">
