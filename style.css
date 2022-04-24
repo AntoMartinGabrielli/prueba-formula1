@@ -110,11 +110,17 @@
     font-weight: bold;
     border-color: rgb(133, 133, 133);
     background-color: black;
+    background-image: linear-gradient(to left, black, red, black);
     border-style: solid;
     border-radius: 5%;
     padding: 5px;
     width: 230px;
     height: 120px;
+    transition:all 1s;
+}
+.listaNumeros:hover{
+    background-image: linear-gradient(to left, red, black,red);
+    transform: scale(2);
 }
 .listaNumerosTamaño{
     font-size: 250%;
@@ -230,7 +236,6 @@
     text-align: center;
     position:relative;
     bottom: 50px;
-    
 }
 .tableParts{
     border-color: rgb(153, 10, 10);
